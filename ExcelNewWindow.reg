@@ -3,7 +3,7 @@ Windows Registry Editor Version 5.00
 ;import into Registry Editor
 ;renames and deletes keys from HKEY_CLASSES_ROOT to force Excel 2010 to open in new window in Windows 7
 ;always export registry or create system restore point before making changes to the registry
-
+;based on instructions at http://dottech.org/26491/how-to-force-microsoft-excel-to-open-files-in-new-window-how-to-guide/
 
 ;add %1 string to end of key, add command2 value and delete command (rename)
 
