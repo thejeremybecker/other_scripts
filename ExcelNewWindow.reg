@@ -129,4 +129,4 @@ Windows Registry Editor Version 5.00
 ;delete ddexec
 [-HKEY_CLASSES_ROOT\Excel.SheetMacroEnabled.12\shell\Open\ddeexec]
 
-:end*****
+;*****end**********
