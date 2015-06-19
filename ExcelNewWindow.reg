@@ -31,8 +31,6 @@ Windows Registry Editor Version 5.00
 ;delete ddexec
 [-HKEY_CLASSES_ROOT\Excel.CSV\shell\Open\ddeexec]
 
-
-
 ;*****end**********
 
 ;add %1 string to end of key, add command2 value and delete command (rename)
@@ -51,19 +49,13 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Excel.Sheet.12\shell\Open\ddeexec2]
 @="[open(\"%1\")]"
-
 [HKEY_CLASSES_ROOT\Excel.Sheet.12\shell\Open\ddeexec2\application]
 @="Excel"
-
 [HKEY_CLASSES_ROOT\Excel.Sheet.12\shell\Open\ddeexec2\topic]
 @="system"
 
 ;delete ddexec
 [-HKEY_CLASSES_ROOT\Excel.Sheet.12\shell\Open\ddeexec]
-
-
-
-;*****end**********
 
 ;add %1 string to end of key, add command2 value and delete command (rename)
 
@@ -81,19 +73,13 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Excel.Sheet.8\shell\Open\ddeexec2]
 @="[open(\"%1\")]"
-
 [HKEY_CLASSES_ROOT\Excel.Sheet.8\shell\Open\ddeexec2\application]
 @="Excel"
-
 [HKEY_CLASSES_ROOT\Excel.Sheet.8\shell\Open\ddeexec2\topic]
 @="system"
 
 ;delete ddexec
 [-HKEY_CLASSES_ROOT\Excel.Sheet.8\shell\Open\ddeexec]
-
-
-
-;*****end**********
 
 ;add %1 string to end of key, add command2 value and delete command (rename)
 
@@ -111,21 +97,13 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Excel.SheetBinaryMacroEnabled.12\shell\Open\ddeexec2]
 @="[open(\"%1\")]"
-
 [HKEY_CLASSES_ROOT\Excel.SheetBinaryMacroEnabled.12\shell\Open\ddeexec2\application]
 @="Excel"
-
 [HKEY_CLASSES_ROOT\Excel.SheetBinaryMacroEnabled.12\shell\Open\ddeexec2\topic]
 @="system"
 
-
-
 ;delete ddexec
 [-HKEY_CLASSES_ROOT\Excel.SheetBinaryMacroEnabled.12\shell\Open\ddeexec]
-
-
-
-;*****end**********
 
 ;add %1 string to end of key, add command2 value and delete command (rename)
 
@@ -143,16 +121,12 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Excel.SheetMacroEnabled.12\shell\Open\ddeexec2]
 @="[open(\"%1\")]"
-
 [HKEY_CLASSES_ROOT\Excel.SheetMacroEnabled.12\shell\Open\ddeexec2\application]
 @="Excel"
-
 [HKEY_CLASSES_ROOT\Excel.SheetMacroEnabled.12\shell\Open\ddeexec2\topic]
 @="system"
 
 ;delete ddexec
 [-HKEY_CLASSES_ROOT\Excel.SheetMacroEnabled.12\shell\Open\ddeexec]
 
-
-
-;*****end**********
+:end*****
